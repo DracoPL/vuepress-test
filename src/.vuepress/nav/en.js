@@ -41,10 +41,6 @@ module.exports = [
 		]
 	},
 	{
-		text: 'Api',
-		link: '/api/'
-	},
-	{
 		text: 'Api Docs',
 		link: 'http://docplanner.github.io/integrations-api-docs/openapi/'
 	},
