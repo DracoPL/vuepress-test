@@ -4,35 +4,29 @@
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
   >
     <header class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
-      >
-
-      <h1
-        v-if="data.heroText !== null"
-        id="main-title"
-      >
-        {{ data.heroText || $title || 'Hello' }}
+      <div>
+      <h1 id="main-title">
+        {{ data.heroText }}
       </h1>
 
-      <p
-        v-if="data.tagline !== null"
-        class="description"
-      >
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+      <p class="description">
+        {{ data.tagline }}
       </p>
 
-      <p
-        v-if="data.actionText && data.actionLink"
-        class="action"
-      >
+
         <NavLink
           class="action-button"
           :item="actionLink"
         />
-      </p>
+      </div>
+
+      <div>
+        <img
+            v-if="data.heroImage"
+            :src="$withBase(data.heroImage)"
+            :alt="data.heroAlt || 'hero'"
+        >
+      </div>
     </header>
 
     <div
@@ -46,24 +40,29 @@
       >
         <h2>{{ feature.title }}</h2>
         <p>{{ feature.details }}</p>
-        <p
+        <dp-button
             v-if="feature.link" class="action"
         >
           <NavLink
               class="action-button"
               :item="feature.link"
           />
-        </p>
+        </dp-button>
 
       </div>
     </div>
 
     <Content class="theme-default-content custom" />
 
+    <carousel />
+
+    <vero />
+
     <div
       v-if="data.footer"
       class="footer"
     >
+      <dp-logo-plain color="calm"/>
       {{ data.footer }}
     </div>
   </main>
@@ -71,11 +70,21 @@
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
+import Vero from '../global-components/Vero.vue';
+import Carousel from '../global-components/Carousel.vue';
+import {DpButton} from "@dp-ui-kit/vue";
+import { DpLogoPlain } from '@dp-ui-kit/logos'
 
 export default {
   name: 'Home',
 
-  components: { NavLink },
+  components: {
+    NavLink,
+    Vero,
+    Carousel,
+    "dp-button": DpButton,
+    DpLogoPlain
+  },
 
   computed: {
     data () {
@@ -122,7 +131,7 @@ function resolvePrev (page, items) {
       display inline-block
       font-size 1.2rem
       color #fff
-      background-color $accentColor
+      background-color #3D83DF
       padding 0.8rem 1.6rem
       border-radius 4px
       transition background-color .1s ease
@@ -131,9 +140,9 @@ function resolvePrev (page, items) {
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    border-top 1px solid $borderColor
     padding 1.2rem 0
     margin-top 2.5rem
+    margin-bottom 2.5rem
     display flex
     flex-wrap wrap
     align-items flex-start
@@ -175,14 +184,52 @@ function resolvePrev (page, items) {
         margin 2rem auto 1.2rem
       h1
         font-size 2rem
-      h1, .description, .action
+      h1, .description
         margin 1.2rem auto
       .description
         font-size 1.2rem
       .action-button
         font-size 1rem
-        padding 0.6rem 1.2rem
     .feature
       h2
         font-size 1.25rem
+.dp-carousel
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+
+.home .hero
+  display: flex !important
+  justify-content: center
+  align-items: center
+  background-color: #012C6D
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+.home .hero img
+  max-width 450rem!important
+
+#main-title
+  color: white;
+  font-weight 500
+  font-size: 1
+
+.description
+  color: white !important;
+  font-weight: 300;
+
+.features
+  align-items: baseline
+  text-align: center;
+
+#app > div.theme-container.no-sidebar > main > section
+  background-color: #EEF4FD
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
 </style>
