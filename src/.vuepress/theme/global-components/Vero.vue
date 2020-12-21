@@ -1,5 +1,5 @@
 <template>
-  <section class="py-5 vero">rr
+  <section class="py-5 vero">
     <div class="container">
       <h2>Contact us </h2>
       <p>Let your clients get the most of the automated experience and integrate your system with Docplanner. Learn more about benefits of having an integration in the below sections.</p>
