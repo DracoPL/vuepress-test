@@ -1,6 +1,6 @@
 ## Intro
 
-<img :src="$withBase('/img/launch.png')" style="width:40%; float: right; margin-left: 50px;"> **Integrating with Docplanner API is dedicated to all the providers of the medical softwares for clinics. It allows creating an ongoing syncronization of available slots on doctor's profiles as well synchronizing bookings, in order to build an top-notch automated experience for the customers.**
+<img :src="$withBase('/img/Launch.png')" style="width:40%; float: right; margin-left: 50px;"> **Integrating with Docplanner API is dedicated to all the providers of the medical softwares for clinics. It allows creating an ongoing syncronization of available slots on doctor's profiles as well synchronizing bookings, in order to build an top-notch automated experience for the customers.**
 
 This guide is meant to explain in details full business context of the integration as well as all the objects and different contexts used in the API. 
 
