@@ -10,3 +10,97 @@ dist
 .basement
 config.local.js
 basement_dist
+yarn.lock
+.idea/workspace.xml
+
+.buildpath
+.idea/*
+.project
+.settings/
+.svn/
+legacy/vendor/
+legacy/app/var
+legacy/app/config/local.yaml
+legacy/app/config/config.site.inc.php
+legacy/app/config/cache/*
+legacy/app/web/img
+legacy/*.pyc
+legacy/znanylekarz.esproj/user.bartlomiejferus.espressostorage
+legacy/znanylekarz.esproj/Project.espressostorage
+legacy/phpunit.phar
+app/bootstrap*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache-webpack
+manifest-*.json
+*.deptrac.cache
+mutagen.yml.lock
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+app/config/parameters-*.yml
+# Legacy stuff
+web/img
+web/img/*
+web/css
+web/public/doc
+web/fonts
+web/js
+web/css/*
+web/doc/*
+web/fonts/*
+web/js/*
+web/platform/fonts
+web/components
+web/platform/bundles/
+.sass-cache
+/.env
+coverage/*
+lib/*
+
+### macOS template
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# PHPStan, PHPCSFixer etc tools
+.php_cs.cache
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Some binaries created by composer on each composer install
+/bin/phing
+bin/simple-phpunit
+
+# JS runtime generated assets
+app/Resources/assets/js/cyrax/profile-doctor
+
+# Project Manager
+pm.*.custom.yaml
+
+#devops
+.k8s/helm/chart/*/*.tgz
+.k8s/helm/chart/*/requirements.lock
+.k8s/helm/chart/*/charts/*

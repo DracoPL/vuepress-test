@@ -14,8 +14,17 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3",
-    "sass-loader": "^7.3.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^5.0.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "vuepress": "^1.7.1"
+  },
+  "dependencies": {
+    "@dp-ui-kit/icons": "^3.0.0-beta.25",
+    "@dp-ui-kit/logos": "^2.103.0",
+    "@dp-ui-kit/scss": "^3.0.0-beta.28",
+    "@dp-ui-kit/vue": "^3.0.0-beta.28",
+    "dayjs": "^1.9.7",
+    "gitignore": "^0.6.0"
   }
 }

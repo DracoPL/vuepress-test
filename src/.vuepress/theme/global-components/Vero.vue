@@ -1,8 +1,8 @@
 <template>
-  <section class="py-5 vero">
+  <section class="py-5 vero">rr
     <div class="container">
-      <h2>Do you have passion for technology? Great, because we have too!</h2>
-      <p>Join our community and be updated with business and tech news. No spam, no cost, just a monthly dose of knowledge and inspirations.</p>
+      <h2>Contact us </h2>
+      <p>Let your clients get the most of the automated experience and integrate your system with Docplanner. Learn more about benefits of having an integration in the below sections.</p>
 
       <div id="mc_embed_signup">
         <form
@@ -145,6 +145,7 @@ export default {
                     max-width: 510px;
                     margin: 0 auto;
                     margin-top:20px;
+                    margin-bottom:20px;
 
                     @media (max-width:480px) {
                             margin: 20px -1rem 0 -1rem;
@@ -201,12 +202,57 @@ export default {
                         opacity:0;
                         width:0;
                         transition: all .2s ease;
-                        background-image: url('/arrow.svg');
+                        background-image: url('/img/arrow.svg');
                         background-repeat: no-repeat;
                         background-position: right 10px center;
                         background-size:25%;
                         padding-right:5px;
                         pointer-events: none;
+                        -webkit-tap-highlight-color: rgba(0,0,0,0);
+                        --blue: #007bff;
+                        --white: #fff;
+                        --gray: #6c757d;
+                        --gray-dark: #343a40;
+                        --indigo: #6610f2;
+                        --purple: #6f42c1;
+                        --red: #dc3545;
+                        --orange: #fd7e14;
+                        --yellow: #ffc107;
+                        --green: #28a745;
+                        --teal: #20c997;
+                        --cyan: #17a2b8;
+                        --primary: #007bff;
+                        --secondary: #6c757d;
+                        --pink: #fcceca;
+                        --dark: #012c6d;
+                        --success: #28a745;
+                        --info: #17a2b8;
+                        --warning: #ffc107;
+                        --danger: #dc3545;
+                        --light: #f8f9fa;
+                        --breakpoint-xs: 0;
+                        --breakpoint-sm: 576px;
+                        --breakpoint-md: 768px;
+                        --breakpoint-lg: 992px;
+                        --breakpoint-xl: 1200px;
+                        --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+                        --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+                        box-sizing: border-box;
+                        font-family: inherit;
+                        overflow: visible;
+                        display: inline-block;
+                        text-align: center;
+                        vertical-align: middle;
+                        user-select: none;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                        background-color: #fcceca;
+                        border-color: #fcceca;
+                        border-radius: 0;
+                        color: #012c6d;
+                        font-weight: 700;
+                        cursor: pointer;
+                        top: 0;
 
                         @media(max-width:480px) {
                             right: 0;
