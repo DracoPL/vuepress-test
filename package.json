@@ -24,6 +24,7 @@
     "@dp-ui-kit/logos": "^2.103.0",
     "@dp-ui-kit/scss": "^3.0.0-beta.28",
     "@dp-ui-kit/vue": "^3.0.0-beta.28",
-    "dayjs": "^1.9.7"
+    "dayjs": "^1.9.7",
+    "gitignore": "^0.6.0"
   }
 }

@@ -1,0 +1,57 @@
+/*
+ * Docplanner components
+ */
+//@use "~@dp-ui-kit/scss/src/docplanner/variables";
+@use "~@dp-ui-kit/scss/src/docplanner/utilities";
+@use "~@dp-ui-kit/scss/src/docplanner/mixins";
+//@use "~@dp-ui-kit/scss/src/docplanner/components/placeholder";
+@use "~@dp-ui-kit/scss/src/docplanner/components/avatar";
+//@use "~@dp-ui-kit/scss/src/docplanner/components/circle";
+@use "~@dp-ui-kit/scss/src/docplanner/components/collapse-item";
+@use "~@dp-ui-kit/scss/src/docplanner/components/rating";
+@use "~@dp-ui-kit/scss/src/docplanner/components/spinner";
+@use "~@dp-ui-kit/icons/scss/svg-icons";
+/*!
+ * Bootstrap v4.x.x (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+//@import "variables";
+@import "~@dp-ui-kit/scss/src/bootstrap/variables";
+@import "~@dp-ui-kit/scss/src/bootstrap/mixins";
+@import "~@dp-ui-kit/scss/src/bootstrap/root";
+@import "~@dp-ui-kit/scss/src/bootstrap/reboot";
+@import "~@dp-ui-kit/scss/src/bootstrap/components/type";
+@import "~@dp-ui-kit/scss/src/bootstrap/components/images";
+// @import "~@dp-ui-kit/scss/src/bootstrap/components/code";
+@import "~@dp-ui-kit/scss/src/bootstrap/components/grid";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/tables";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/forms";
+@import "~@dp-ui-kit/scss/src/bootstrap/components/buttons";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/transitions";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/dropdown";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/button-group";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/input-group";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/custom-forms";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/custom-forms-checks";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/nav";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/navbar";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/card";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/breadcrumb";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/pagination";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/badge";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/alert";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/progress";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/media";
+// @import "~@dp-ui-kit/scss/src/bootstrap/components/list-group";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/close";
+// @import "~@dp-ui-kit/scss/src/bootstrap/components/toasts";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/modal";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/tooltip";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/popover";
+// @import "~@dp-ui-kit/scss/src/bootstrap/components/carousel";
+//@import "~@dp-ui-kit/scss/src/bootstrap/components/spinners";
+//@import "~@dp-ui-kit/scss/src/bootstrap/utilities";
+// @import "~@dp-ui-kit/scss/src/bootstrap/print";
+@import "~@dp-ui-kit/scss/src/docplanner/index";
