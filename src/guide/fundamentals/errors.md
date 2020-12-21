@@ -1,6 +1,6 @@
 # Errors
 
-<img :src="$withBase('/security.png')" text-align="left" size="40%">
+<img :src="$withBase('/img/security.png')" text-align="left" size="40%">
 
 In Docplanner we're using standard HTTP response codes to indicate the success or failure of an API request. In general: Codes in the `2xx` range indicate success. Codes in the `4xx` range indicate an error which has failed given the information provided (e.g., resource is no longer available, request doesn't contain all the required fields, etc.). Codes in the `5xx` and codes in the `5xx` range indicate a server-side error. 
 
