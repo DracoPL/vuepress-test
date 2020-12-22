@@ -10,19 +10,12 @@ actionLink: /guide/
 features:
 - title: Kickstarting guide
   details: Get to know the basics of integrating with Docplanner API.
-  link:
-    link: /guide/
-    text: Guide
+  link: /guide/
 - title: Api Docs
   details: Learn the API calls structure and all the details needed.
-  link:
-    link: /docs/
-    text: Api Docs
+  link: /docs/
 - title: Client libraries
   details: Use our software development kits to boost your development process.
-  link:
-    link: /sdk/
-    text: SDK
   
 partnersTitle: Meet our Partners
 partnersTagline: We work with the best. The best works with us. Period.

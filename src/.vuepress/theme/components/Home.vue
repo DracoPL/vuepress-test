@@ -14,10 +14,7 @@
       </p>
 
 
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
+
       </div>
 
       <div>
@@ -43,18 +40,12 @@
         <dp-button
             v-if="feature.link" class="action"
         >
-          <NavLink
-              class="action-button"
-              :item="feature.link"
-          />
+          <a :href="feature.link">Discover</a>
         </dp-button>
 
       </div>
     </div>
 
-    <Content class="theme-default-content custom" />
-
-    <carousel />
 
     <vero />
 
@@ -69,19 +60,15 @@
 </template>
 
 <script>
-import NavLink from '@theme/components/NavLink.vue'
 import Vero from '../global-components/Vero.vue';
-import Carousel from '../global-components/Carousel.vue';
 import {DpButton} from "@dp-ui-kit/vue";
-import { DpLogoPlain } from '@dp-ui-kit/logos'
+import {DpLogoPlain} from '@dp-ui-kit/logos'
 
 export default {
   name: 'Home',
 
   components: {
-    NavLink,
     Vero,
-    Carousel,
     "dp-button": DpButton,
     DpLogoPlain
   },
