@@ -47,6 +47,8 @@
     </div>
 
 
+    <carousel />
+
     <vero />
 
     <div
@@ -63,6 +65,7 @@
 import Vero from '../global-components/Vero.vue';
 import {DpButton} from "@dp-ui-kit/vue";
 import {DpLogoPlain} from '@dp-ui-kit/logos'
+import Carousel from '../global-components/Carousel.vue';
 
 export default {
   name: 'Home',
@@ -70,7 +73,8 @@ export default {
   components: {
     Vero,
     "dp-button": DpButton,
-    DpLogoPlain
+    DpLogoPlain,
+    Carousel,
   },
 
   computed: {
