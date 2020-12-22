@@ -4,7 +4,7 @@
 
 You can find SDK code in our public repository in [here](https://github.com/DocPlanner/integrations-api-sdk-php).
 
-## How to
+## Installation
 ### Composer
 
 To install the via [Composer](http://getcomposer.org/), run `composer require docplanner/integrations-api-sdk-php`.
@@ -40,7 +40,7 @@ $apiInstance = new DocPlanner\Client\Api\AddressesApi(null, $config);
 
 ## Getting Started
 
-Please follow the [installation procedure](#installation--usage) and then run the following:
+Please follow the installation procedure and then run the following:
 
 ```php
 <?php
