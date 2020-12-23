@@ -3,7 +3,7 @@ const { path } = require('@vuepress/shared-utils')
 
 module.exports = {
 
-  base: '/integrations-hub-front-app/',
+  base: '/vuepress-test/',
 
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
