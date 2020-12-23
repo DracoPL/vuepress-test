@@ -25,7 +25,6 @@ Whole authorization process is based on OAuth2 protocol with `grant_type = clien
 Obtained token is valid for the next 24h, so it is good practice to cache it for that period of time.
 
 This can be done using our SDK:
-###Example
 ```php
 //Get OAuth2 access token
 $authorization = new DocPlanner\Client\Authorization('https://www.{domain}/oauth/v2/token');
@@ -38,9 +37,9 @@ $apiInstance = new DocPlanner\Client\Api\AddressesApi(null, $config);
 ```
 
 
-## Getting Started
+## Example usage
 
-Please follow the installation procedure and then run the following:
+Below you will find example of how you can use SDK
 
 ```php
 <?php

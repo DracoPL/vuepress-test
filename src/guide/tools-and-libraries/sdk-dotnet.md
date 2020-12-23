@@ -1,6 +1,6 @@
-# Integrations API SDK Client
+# SDK for .NET
 
-# 1. Introduction
+## 1. Introduction
 
 Our SDK is created in .NET Standard 2.0, so we are supporting .NET Framework 4.6.1+ and .NET Core 2.0+
 
@@ -10,9 +10,9 @@ More information and documentation you can find in our [Integrations Hub](https:
 
 This package doesn't have special requirements. Within package we bundle `Newtonsoft.Json 12.0.0+` and `System.ComponentModel.Annotations 5.0.0+`
 
-# 2. Setup
+## 2. Setup
 
-## 2.1. Getting package
+### 2.1. Getting package
 
 Package can be found in Docplanner [public repository](https://dev.azure.com/docplanner/Public packages/_packaging?_a=package&feed=integrations%40Local&package=Integrations.Api.Sdk&protocolType=NuGet).
 
@@ -20,7 +20,7 @@ You need to add new package source `https://pkgs.dev.azure.com/docplanner/c4fa30
 
 After that look for package `Integrations.Api.Sdk` in package manager.
 
-## 2.2. Authentication
+### 2.2. Authentication
 
 We use OAuth 2.0 protocol for endpoints authentication.
 
@@ -43,15 +43,15 @@ httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("
 
 More information about authentication you can find [here](http://docplanner.github.io/integrations-api-docs/openapi/#section/Authentication).
 
-# 3. Using Client
+## 3. Using Client
 
-## 3.1. Client naming
+### 3.1. Client naming
 
 Client are named according to tags in [api docs](docplanner.github.io/integrations-api-docs/openapi/). 
 
 So if we have `Services` tag then client will be named `ServicesClient`.
 
-## 3.2. Using Client
+### 3.2. Using Client
 
 As seen in example we call `FacilitiesClient` to get list of facilities. We create `HttpClient` with base URI `https://www.{domain}/api/v3/integration`.
 

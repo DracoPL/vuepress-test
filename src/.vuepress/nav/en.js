@@ -29,19 +29,10 @@ module.exports = [
 					},
 				]
 			},
-			{
-				text: 'Resources',
-				items: [
-					{
-						text: 'Changelog',
-						link: 'https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md'
-					}
-				]
-			}
 		]
 	},
 	{
 		text: 'Api Docs',
-		link: 'http://docplanner.github.io/integrations-api-docs/openapi/'
+		link: 'http://docplanner.github.io/integrations-hub-front-app/docs'
 	},
 ]
