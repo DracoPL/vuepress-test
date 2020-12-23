@@ -5,18 +5,13 @@
   >
     <header class="hero">
       <div>
-      <h1 id="main-title">
-        {{ data.heroText }}
-      </h1>
-
-      <p class="description">
-        {{ data.tagline }}
-      </p>
-
-
-
+        <h1 id="main-title">
+          {{ data.heroText }}
+        </h1>
+        <p class="description">
+          {{ data.tagline }}
+        </p>
       </div>
-
       <div>
         <img
             v-if="data.heroImage"
@@ -25,7 +20,6 @@
         >
       </div>
     </header>
-
     <div
       v-if="data.features && data.features.length"
       class="features"
@@ -42,42 +36,44 @@
         >
           <a :href="feature.link">Discover</a>
         </dp-button>
-
       </div>
     </div>
-
-
+    <component v-if="carousel" :is="carousel"></component>
     <vero />
-
     <div
-      v-if="data.footer"
-      class="footer"
+        v-if="data.footer"
+        class="footer"
     >
       <dp-logo-plain color="calm"/>
       {{ data.footer }}
     </div>
   </main>
 </template>
-
 <script>
 import Vero from '../global-components/Vero.vue';
 import {DpButton} from "@dp-ui-kit/vue";
 import {DpLogoPlain} from '@dp-ui-kit/logos'
-
 export default {
   name: 'Home',
-
   components: {
     Vero,
     "dp-button": DpButton,
-    DpLogoPlain
+    DpLogoPlain,
   },
-
+  data() {
+    return {
+      carousel: null
+    }
+  },
+  mounted () {
+    import('../global-components/Carousel.vue').then(module => {
+      this.carousel = module.default
+    })
+  },
   computed: {
     data () {
       return this.$page.frontmatter
     },
-
     actionLink () {
       return {
         link: this.data.actionLink,
@@ -86,7 +82,6 @@ export default {
     },
   }
 }
-
 function resolvePrev (page, items) {
   return find(page, items, -1)
 }

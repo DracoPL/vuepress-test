@@ -7,7 +7,7 @@
       <div id="mc_embed_signup">
         <form
           id="mc-embedded-subscribe-form"
-          action="https://app.getvero.com/forms/25fdde19801bc3f791969f40da9c3796"
+          action="https://app.getvero.com/forms/bad5af44d8c1701b8ae9b13bed893796"
           class="validate"
           method="post"
           name="mc-embedded-subscribe-form"
@@ -33,7 +33,7 @@
                     name="gdpr[52003]"
                     type="checkbox"
                     value="Y"
-                  ><span>I would like ZnanyLekarz sp. z o.o. with registered office in Warsaw to send me a technological information newsletter.
+                  ><span>I would like ZnanyLekarz sp. z o.o. with registered office in Warsaw to send me an email regarding integration.
                     I know that consent is voluntary and can be withdrawn at any time. I confirm that I have read the privacy policy.<br><br>
                     <strong>Privacy policy for the docplanner tech newsletter</strong><br>
                     The data controller of personal data processed in connection with the newsletter "docplannertech" is ZnanyLekarz
