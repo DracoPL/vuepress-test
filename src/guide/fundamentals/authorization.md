@@ -2,7 +2,7 @@
 
 
 
-For authorization purposes we’re using industry standard - [**OAuth2 Protocol**](https://oauth.net/2/). To authorize you need set of **Client Credentials**. If you want to find out how to get Sandbox credentials - go here /add quick link to kickstart section/
+#### For authorization purposes we’re using industry standard - [**OAuth2 Protocol**](https://oauth.net/2/). To authorize you need set of **Client Credentials**. If you want to find out how to get Sandbox credentials - go here /add quick link to kickstart section/
 
 
 

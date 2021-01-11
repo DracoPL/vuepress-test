@@ -1,6 +1,8 @@
 # Rate Limits
 
-In order to prevent DOS/DDOS attacks and abuses of the API, we use **rate limitting**. Currently the rate limits are set on 2 levels:
+#### In order to prevent DOS/DDOS attacks and abuses of the API, we use **rate limitting**. 
+
+Currently the rate limits are set on 2 levels:
 
 - **Limitting the requests quota per hour**
 
